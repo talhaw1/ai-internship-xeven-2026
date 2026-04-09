@@ -1,41 +1,26 @@
-# 🚀 30-Day AI Internship at Xeven
-
-This repository documents my 30-day journey as an AI Intern. It tracks my daily progress, code implementations, and technical growth in Python and AI Engineering.
-
-## 🛠️ Environment Setup
-- **OS:** Windows 10/11 (PowerShell)
-- **Version Control:** Git
-- **Package Manager:** `uv` (Fast Python package installer)
-- **Python Version:** 3.12+
-
----
-
 ## 📅 Progress Tracker
 
 | Day | Topic | Key Deliverables | Status |
 | :--- | :--- | :--- | :--- |
-| **Day 1** | Project Initialization | Environment setup, Git sync, Repository structure | ✅ Done |
-| **Day 2** | Python Basics | Data Types, Type Casting, Interactive Calculator | ✅ Done |
-| **Day 3** | Control Flow | Logic gates, If/Else statements, Comparison | 📅 Next |
+| **Day 1** | Project Initialization | Environment setup, Git sync | ✅ Done |
+| **Day 2** | Python Basics | Data Types, Type Casting, Basic Calc | ✅ Done |
+| **Day 3** | Control Flow & Logic | Conditional Systems, Input Validation | ✅ Done |
+| **Day 4** | Loops & Iteration | For/While loops, List Processing | 📅 Next |
 
 ---
 
 ## 📝 Daily Logs
 
-### Day 1: The Foundation
-- Initialized the repository and configured `.gitignore`.
-- Set up a virtual environment using `uv`.
-- Verified the Python installation with a basic "Hello World" app.
+### Day 3: Conditional Statements & Logic
+Focused on building "thinking" programs that branch based on user input and Boolean logic.
 
-### Day 2: Data Types & Interactive Logic
-- **Exploration:** Deep dive into `int`, `float`, `str`, and `bool`.
-- **Key Skill:** Implemented `try-except` blocks to handle user input errors gracefully.
-- **Project:** Created an **Interactive Calculator** that processes floating-point numbers and handles division-by-zero errors.
-- **Technical Learning:** Mastered the difference between the VS Code Output window and the Integrated Terminal.
+#### **Key Projects:**
+1. **Age Verification System:** Used `if-elif-else` chains to classify users into four age categories (Child, Teen, Adult, Senior) with error handling for negative values.
+2. **Grade Calculator:** Implemented efficient range-checking logic to assign letter grades (A-F) and personalized feedback messages.
+3. **Number Classifier:** Built a simple tool to identify Positive, Negative, and Zero values.
 
----
-
-## ⚙️ How to Run
-1. Clone the repo: `git clone https://github.com/talhaw1/ai-internship-xeven-2026.git`
-2. Activate environment: `.venv\Scripts\activate`
-3. Run Day 2 script: `python day02/interactive_calculator.py`
+#### **Technical Skills Mastered:**
+- **Comparison Operators:** Used `==`, `!=`, `>`, and `<` to evaluate conditions.
+- **Boolean Logic:** Explored "Truthy" vs "Falsy" values (e.g., how an empty string `""` evaluates to `False`).
+- **Input Validation:** Combined `try-except` blocks with `if` statements to ensure data integrity.
+- **Optimization:** Learned why the order of `elif` statements matters for performance.
