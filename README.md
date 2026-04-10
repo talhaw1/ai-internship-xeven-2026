@@ -5,22 +5,23 @@
 | **Day 1** | Project Initialization | Environment setup, Git sync | ✅ Done |
 | **Day 2** | Python Basics | Data Types, Type Casting, Basic Calc | ✅ Done |
 | **Day 3** | Control Flow & Logic | Conditional Systems, Input Validation | ✅ Done |
-| **Day 4** | Loops & Iteration | For/While loops, List Processing | 📅 Next |
+| **Day 4** | Operators & Conversion | Multi-op Calc, Login System, Precedence | ✅ Done |
+| **Day 5** | Loops & Iteration | For/While loops, List Processing | 📅 Next |
 
 ---
 
 ## 📝 Daily Logs
 
-### Day 3: Conditional Statements & Logic
-Focused on building "thinking" programs that branch based on user input and Boolean logic.
+### Day 4: Operators & Type Conversion
+Focused on the "engine" of Python—manipulating data through arithmetic and complex logical comparisons.
 
 #### **Key Projects:**
-1. **Age Verification System:** Used `if-elif-else` chains to classify users into four age categories (Child, Teen, Adult, Senior) with error handling for negative values.
-2. **Grade Calculator:** Implemented efficient range-checking logic to assign letter grades (A-F) and personalized feedback messages.
-3. **Number Classifier:** Built a simple tool to identify Positive, Negative, and Zero values.
+1. **Advanced Login System:** Combined `len()` functions with logical `and`/`or` operators to validate usernames, passwords, and age requirements.
+2. **Multi-Operation Calculator:** Utilized `float()` conversion and implemented defensive coding to prevent "Division by Zero" errors.
+3. **Precedence Tester:** Evaluated complex expressions to master the "PEMDAS" of Python logic.
 
 #### **Technical Skills Mastered:**
-- **Comparison Operators:** Used `==`, `!=`, `>`, and `<` to evaluate conditions.
-- **Boolean Logic:** Explored "Truthy" vs "Falsy" values (e.g., how an empty string `""` evaluates to `False`).
-- **Input Validation:** Combined `try-except` blocks with `if` statements to ensure data integrity.
-- **Optimization:** Learned why the order of `elif` statements matters for performance.
+- **Arithmetic Operators:** Mastered Floor Division (`//`), Modulus (`%`), and Exponents (`**`).
+- **Logical Operators:** Used `and`, `or`, and `not` for multi-layered permission systems.
+- **Type Casting:** Practiced explicit conversion using `int()`, `float()`, and `str()`.
+- **f-String Formatting:** Learned to format float outputs for cleaner user interfaces.
