@@ -6,22 +6,22 @@
 | **Day 2** | Python Basics | Data Types, Type Casting, Basic Calc | ✅ Done |
 | **Day 3** | Control Flow & Logic | Conditional Systems, Input Validation | ✅ Done |
 | **Day 4** | Operators & Conversion | Multi-op Calc, Login System, Precedence | ✅ Done |
-| **Day 5** | Loops & Iteration | For/While loops, List Processing | 📅 Next |
+| **Day 5** | Intro to ML Concepts | Supervised, Unsupervised, Reinforcement | 📅 Next |
 
 ---
 
 ## 📝 Daily Logs
 
 ### Day 4: Operators & Type Conversion
-Focused on the "engine" of Python—manipulating data through arithmetic and complex logical comparisons.
+Focused on the mathematical and logical "engine" of Python—manipulating data and ensuring type integrity.
 
 #### **Key Projects:**
-1. **Advanced Login System:** Combined `len()` functions with logical `and`/`or` operators to validate usernames, passwords, and age requirements.
-2. **Multi-Operation Calculator:** Utilized `float()` conversion and implemented defensive coding to prevent "Division by Zero" errors.
-3. **Precedence Tester:** Evaluated complex expressions to master the "PEMDAS" of Python logic.
+1. **Advanced Login System:** Built a multi-layered validation tool using `and`, `or`, and `not` to verify username length, password strength, and age requirements simultaneously.
+2. **Multi-Operation Calculator:** Created a robust tool utilizing all arithmetic operators (`+`, `-`, `*`, `/`, `%`, `**`) with built-in `ZeroDivisionError` handling.
+3. **Precedence Tester:** Conducted experiments with complex expressions to verify Python's Order of Operations (PEMDAS).
 
 #### **Technical Skills Mastered:**
-- **Arithmetic Operators:** Mastered Floor Division (`//`), Modulus (`%`), and Exponents (`**`).
-- **Logical Operators:** Used `and`, `or`, and `not` for multi-layered permission systems.
-- **Type Casting:** Practiced explicit conversion using `int()`, `float()`, and `str()`.
-- **f-String Formatting:** Learned to format float outputs for cleaner user interfaces.
+- **Arithmetic Operators:** Deep dive into Floor Division (`//`) and Modulus (`%`).
+- **Logical Operators:** Implementing complex decision-making with Boolean logic.
+- **Type Conversion:** Using `float()` and `int()` to sanitize user input for calculations.
+- **f-Strings:** Advanced output formatting using precision specifiers like `:.2f`.
