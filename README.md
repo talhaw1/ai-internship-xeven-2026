@@ -2,36 +2,24 @@
 
 | Day | Topic | Key Deliverables | Status |
 | :--- | :--- | :--- | :--- |
-| **Day 1** | Project Initialization | Environment setup, Git sync | ✅ Done |
-| **Day 2** | Python Basics | Data Types, Type Casting, Basic Calc | ✅ Done |
-| **Day 3** | Control Flow & Logic | Conditional Systems, Input Validation | ✅ Done |
-| **Day 4** | Operators & Conversion | Multi-op Calc, Login System, Precedence | ✅ Done |
-| **Day 5** | Intro to ML Concepts | ML Pillars, Decision Tree Simulator | ✅ Done |
-| **Day 6** | Python Data Structures | Lists, Slicing, Student Management | ✅ Done |
-| **Day 7** | Lists | List Operations | 📅 Next |
+| **Week 1** | Python & ML Basics | Assessment & Presentation | ✅ Done |
+| **Day 8** | Advanced Lists | Grade Manager, Shopping Cart, Data Pipeline | ✅ Done |
+| **Day 9** | Tuples & Sets | 📅 Next |
 
 ---
 
 ## 📝 Daily Logs
 
-### Day 6: Python Data Structures - Lists
-Mastered the use of mutable, ordered collections for efficient data management and analysis.
+### Day 8: Advanced Lists & List Operations
+Transitioned from basic list management to advanced manipulation techniques using list comprehensions and parallel data syncing.
 
 #### **Key Projects:**
-1. **Student Management System:** Implemented full CRUD (Create, Read, Update, Delete) operations using `append()`, `insert()`, `pop()`, and `remove()`.
-2. **Grade Tracker (Parallel Lists):** Created a system to link student names with grades, using list methods like `max()`, `min()`, and `index()` to extract performance insights.
-3. **Slicing Mastery Lab:** Developed a demonstration of advanced slicing patterns, including negative indexing and step-slicing (`[::3]`, `[::-1]`).
+1. **Student Grade Manager:** Used `zip()` and `sort()` to manage parallel lists of names and grades, including Top 3 performer identification.
+2. **Shopping Cart System:** Implemented a multi-list system for tracking items, prices, and quantities with an automated 10% discount logic.
+3. **Data Cleaning Pipeline:** Built a multi-stage cleaning tool that uses list comprehensions to strip whitespace, normalize casing, and filter null values from messy datasets.
 
 #### **Technical Skills Mastered:**
-- **List Mutation:** Understanding the difference between in-place methods like `.sort()` and creating new lists via slicing.
-- **Index Management:** Handling 0-based indexing and preventing `IndexError` via defensive programming.
-- **Data Analysis Basics:** Using `sum()` and `len()` on lists to calculate averages and filter passing grades.
-- **Sequence Manipulation:** Utilizing `reverse()` and `extend()` to manage complex data sequences.
-
-#### **List Operations Summary:**
-| Method | Description | Time Complexity (Avg) |
-| :--- | :--- | :--- |
-| `append()` | Adds to end | O(1) |
-| `insert()` | Adds at index | O(n) |
-| `pop()` | Removes from end | O(1) |
-| `sort()` | Orders items | O(n log n) |
+- **List Comprehensions:** Writing concise, efficient one-line loops for data transformation.
+- **Slicing Patterns:** Utilizing negative indexing (`[-3:]`) for "Recently Added" features.
+- **Data Quality Metrics:** Calculating completeness percentages and unique counts for data verification.
+- **Parallel List Sync:** Ensuring data integrity across multiple lists when using `pop()` and `append()`.
