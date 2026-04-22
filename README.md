@@ -1,25 +1,22 @@
-## 📅 Progress Tracker
+## 📅 Progress Tracker Update
 
 | Day | Topic | Key Deliverables | Status |
 | :--- | :--- | :--- | :--- |
-| **Day 8** | Advanced Lists | Grade Manager, Data Pipeline | ✅ Done |
-| **Day 9** | Tuples & Sets | Geo-System, Visitor Tracker, Email Validator | ✅ Done |
-| **Day 10** | Dictionaries | Key-Value Pairs & JSON Logic | 📅 Next |
+| **Day 9** | Tuples & Sets | Geo-System & Email Validator | ✅ Done |
+| **Day 10** | Dictionaries & JSON | Student SIS, Inventory, & Config Manager | ✅ Done |
+| **Day 11** | Loops & Iteration | 📅 Next |
 
 ---
 
-## 📝 Daily Logs
-
-### Day 9: Tuples & Sets
-Explored specialized Python collections focusing on data integrity (Tuples) and mathematical uniqueness (Sets).
+## 📝 Daily Logs: Day 10
+Mastered complex data structures and persistence using JSON.
 
 #### **Key Projects:**
-1. **Geographic Coordinates System:** Used immutable tuples to store GPS data and calculated Euclidean distances between cities.
-2. **Unique Visitor Tracker:** Utilized set theory (Intersections/Unions) to calculate website retention rates and identify unique IP addresses.
-3. **Email Validation System:** Implemented a registration gatekeeper using set membership testing to validate domains and prevent duplicate entries.
+1. **Student SIS:** Developed a nested dictionary database with JSON saving/loading.
+2. **Inventory Manager:** Implemented category-based analytics and low-stock alerts using dictionary comprehensions.
+3. **Config Manager:** Created a system for managing application settings with safe `.get()` defaults.
 
 #### **Technical Skills Mastered:**
-- **Tuple Unpacking:** Efficiently extracting multiple values from a single sequence.
-- **Set Operations:** Performing complex data comparisons using `.intersection()`, `.union()`, and `.difference()`.
-- **Membership Testing:** Leveraging the $O(1)$ lookup speed of sets compared to $O(n)$ in lists.
-- **Defensive Programming:** Using `try-except` blocks to handle immutability errors.
+- **Serialization:** Converting Python objects to JSON strings and files.
+- **Deep Nesting:** Navigating multi-level dictionary structures.
+- **Data Persistence:** Building applications that "remember" data across sessions.

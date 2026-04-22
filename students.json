@@ -1,0 +1,63 @@
+{
+    "S001": {
+        "name": "Ahmed Khan",
+        "age": 21,
+        "grades": {
+            "Python": 88,
+            "NLP": 92,
+            "Math": 79
+        }
+    },
+    "S002": {
+        "name": "Sara Ali",
+        "age": 22,
+        "grades": {
+            "Python": 95,
+            "NLP": 91,
+            "Math": 87
+        }
+    },
+    "S003": {
+        "name": "Hassan Raza",
+        "age": 20,
+        "grades": {
+            "Python": 45,
+            "NLP": 52,
+            "Math": 38
+        }
+    },
+    "S004": {
+        "name": "Fatima Noor",
+        "age": 23,
+        "grades": {
+            "Python": 78,
+            "NLP": 83,
+            "Math": 91
+        }
+    },
+    "S005": {
+        "name": "Omar Sheikh",
+        "age": 21,
+        "grades": {
+            "Python": 67,
+            "NLP": 71,
+            "Math": 58
+        }
+    },
+    "S1": {
+        "name": "Ali",
+        "age": 20,
+        "grades": {
+            "Math": 85,
+            "Physics": 90
+        }
+    },
+    "S2": {
+        "name": "Sara",
+        "age": 21,
+        "grades": {
+            "Math": 95,
+            "Physics": 88
+        }
+    }
+}
